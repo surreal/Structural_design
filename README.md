@@ -1,5 +1,5 @@
 # structural_design
-structural design
+Structural Design
 
 תכן הנדסה בניין
 
