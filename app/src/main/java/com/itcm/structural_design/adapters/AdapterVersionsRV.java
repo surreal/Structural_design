@@ -26,7 +26,7 @@ import static com.itcm.structural_design.activities.BasicActivity.toolbarTitle;
 public class AdapterVersionsRV extends RecyclerView.Adapter<AdapterVersionsRV.ViewHolder> {
 
 
-    private Cursor cursor;
+    private final Cursor cursor;
 
     public AdapterVersionsRV(Cursor cursor){
         this.cursor = cursor;
@@ -57,7 +57,6 @@ public class AdapterVersionsRV extends RecyclerView.Adapter<AdapterVersionsRV.Vi
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         private final TextView title_tv;
-        private Cursor cursor;
         private String title;
         private int subcategoryPosition;
 
@@ -74,7 +73,8 @@ public class AdapterVersionsRV extends RecyclerView.Adapter<AdapterVersionsRV.Vi
             activity.startActivityForResult(new Intent(context, SubCategoriesManagerActivity.class).putExtra(SAVED_VERSION_TITLE, title).putExtra(SUB_CATEGORY_POSITION, subcategoryPosition), 0);
         }
 
-        private void setCursor(Cursor cursor) { this.cursor = cursor; }
+        private void setCursor(Cursor cursor) {
+        }
         private void setTitle(String title) { this.title = title; }
         public void setSubcategoryPosition(int subcategoryPosition) { this.subcategoryPosition = subcategoryPosition; }
     }
