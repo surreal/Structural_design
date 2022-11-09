@@ -22,10 +22,11 @@ Firebase Crashlytics
 ב. איתור תקלות ושגיאות המתרחשות אצל משתמשים
 )גם בזמן אמת(.
 
+<div>
 <img src="https://user-images.githubusercontent.com/16803977/200957841-23709082-fa8a-4354-9006-f09d163c2bfd.png" width="100" title="screenshot 1">
-<img src="https://user-images.githubusercontent.com/16803977/200957842-88d1af0c-cb1a-48ac-a287-25b8f05e3f4c.png" width="100" title="screenshot 1">
-<img src="https://user-images.githubusercontent.com/16803977/200957845-fa0e9911-a554-4e5f-ae64-2cbb83753973.png" width="100" title="screenshot 1">
-<img src="https://user-images.githubusercontent.com/16803977/200957847-5db61517-b862-4e56-98aa-0d5753d66d59.png" width="100" title="screenshot 1">
+<img src="https://user-images.githubusercontent.com/16803977/200957842-88d1af0c-cb1a-48ac-a287-25b8f05e3f4c.png" width="100" title="screenshot 2">
+<img src="https://user-images.githubusercontent.com/16803977/200957845-fa0e9911-a554-4e5f-ae64-2cbb83753973.png" width="100" title="screenshot 3">
+<img src="https://user-images.githubusercontent.com/16803977/200957847-5db61517-b862-4e56-98aa-0d5753d66d59.png" width="100" title="screenshot 4">
 <img src="https://user-images.githubusercontent.com/16803977/200957850-b0e2fcf2-5ffd-4b3e-ba78-f72ede542980.png" width="100" title="screenshot 1">
 <img src="https://user-images.githubusercontent.com/16803977/200957851-b4f44c71-1fa6-4d60-8672-494b4821613f.png" width="100" title="screenshot 1">
 <img src="https://user-images.githubusercontent.com/16803977/200957854-efc63558-8049-4f71-8f85-98a9efc8b873.png" width="100" title="screenshot 1">
@@ -48,3 +49,4 @@ Firebase Crashlytics
 <img src="https://user-images.githubusercontent.com/16803977/200957886-b24a1d7e-a669-4368-bddf-91df638d216e.png" width="100" title="screenshot 1">
 <img src="https://user-images.githubusercontent.com/16803977/200957887-34500dae-8250-4a97-98c3-3f4bef8e2ab6.png" width="100" title="screenshot 1">
 <img src="https://user-images.githubusercontent.com/16803977/200957889-b123ed38-e748-4891-b16f-279fcc8a817c.png" width="100" title="screenshot 1">
+</div>
