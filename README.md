@@ -21,6 +21,7 @@ Firebase Crashlytics
 א. מעכב אחרי פעולות של משתמשים באפליקציה )גם בזמן אמת(
 ב. איתור תקלות ושגיאות המתרחשות אצל משתמשים
 )גם בזמן אמת(.
+
 ![תמונה6](https://user-images.githubusercontent.com/16803977/200957841-23709082-fa8a-4354-9006-f09d163c2bfd.png)
 ![תמונה7](https://user-images.githubusercontent.com/16803977/200957842-88d1af0c-cb1a-48ac-a287-25b8f05e3f4c.png)
 ![תמונה8](https://user-images.githubusercontent.com/16803977/200957845-fa0e9911-a554-4e5f-ae64-2cbb83753973.png)
