@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/activity_saved_versions.xml" value="0.1673611111111111" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/activity_sub_categories.xml" value="0.2" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/fragment_sub_categories.xml" value="0.10101351351351351" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/item_view_text.xml" value="0.1956081081081081" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_break_line.xml" value="0.2" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_break_line_blue.xml" value="0.1956081081081081" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_spinner.xml" value="0.1673611111111111" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_spinner_dropdown_menu_item.xml" value="0.1956081081081081" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_three_buttons.xml" value="0.1956081081081081" />
+        <entry key="..\:/Users/Andrey/Desktop/Projects/Itcm/java/StructuralDesign/app/src/main/res/layout/layout_two_buttons_horizontal.xml" value="0.1956081081081081" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
