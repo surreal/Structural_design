@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_one_button_btn_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparent">
+    <TextView
+        android:id="@+id/layout_one_button_btn_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button"
+        style="@style/ButtonYellowOvalStyle"/>
+</RelativeLayout>

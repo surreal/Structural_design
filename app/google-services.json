@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "183639876208",
+    "firebase_url": "https://structural-design-project.firebaseio.com",
+    "project_id": "structural-design-project",
+    "storage_bucket": "structural-design-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183639876208:android:9a137dd52ab931e22c0ab5",
+        "android_client_info": {
+          "package_name": "com.itcm.structural_design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183639876208-ml0v74671k7tlim1vq69gq8sfc49umba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubI8-vOO4uYPopqmEbJL241HnnoG694E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183639876208-ml0v74671k7tlim1vq69gq8sfc49umba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

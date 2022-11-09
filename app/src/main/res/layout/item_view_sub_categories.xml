@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_view_sub_categories_main_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_view_sub_categories_all_areas_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:id="@+id/item_view_sub_categories_result_area_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorSoftGray">
+            <EditText
+                android:id="@+id/item_view_sub_categories_measuring_number_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="1.0"
+                android:textColor="@android:color/black"
+                android:gravity="start|center"
+                android:padding="7dp"
+                android:background="@color/colorSoftGray"
+                android:inputType="numberDecimal"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/item_view_sub_categories_measuring_result_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:textColor="@color/colorSoftGray"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="CM"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/item_view_sub_categories_measuring_unit_one_break_line_v"
+                android:layout_height="match_parent"
+                android:layout_width="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/colorGray"/>
+
+            <LinearLayout
+                android:id="@+id/item_view_sub_categories_layout_spinner_ll"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <include layout="@layout/layout_spinner"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_view_sub_categories_measuring_unit_one_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/item_view_sub_categories_measuring_unit_one_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorGray"
+                android:text="CM"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:layout_toStartOf="@id/item_view_sub_categories_measuring_unit_two_break_line_v"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="15sp"/>
+            <View
+                android:id="@+id/item_view_sub_categories_measuring_unit_two_break_line_v"
+                android:layout_width="1dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@id/item_view_sub_categories_measuring_unit_one_tv"
+                android:layout_alignParentEnd="true"
+                android:background="@color/colorGray"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_view_sub_categories_measuring_unit_two_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/item_view_sub_categories_measuring_unit_two_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorGray"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="CM"
+                android:textSize="15sp" />
+            <View
+                android:id="@+id/item_view_sub_categories_measuring_number_break_line_v"
+                android:layout_width="1dp"
+                android:layout_alignBottom="@id/item_view_sub_categories_measuring_number_break_line_v"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/colorGray"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/item_view_sub_categories_title_rl"
+            android:layout_width="0dp"
+            android:gravity="top"
+            android:layout_weight="3"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/item_view_sub_categories_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorGray"
+                android:text="steel"
+                android:padding="10dp"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_view_sub_categories_category_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="hello"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingBottom="4dp"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/item_view_sub_categories_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="2dp"
+        android:background="@color/colorTurquoise"/>
+
+</RelativeLayout>

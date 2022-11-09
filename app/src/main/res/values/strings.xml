@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">תכן הנדסה בניין</string>
+    <string name="arrow_left"><![CDATA[<---]]></string>
+
+    <string name="valid_cut">חתך תקין</string>
+    <string name="not_valid_cut">חתך לא תקין</string>
+    <string name="structural_design">תכן קונסטרוקציה</string>
+    <string name="amount_is_not_enough">כמות זה אינו מספיקה</string>
+    <string name="armament_dose_is_too_big">כמות זיון גדולה</string>
+    <string name="cut_is_valid_can_be_planned_for_cutting">חתך תקין אפשר לתכנן לגזירה</string>
+    <string name="cut_of_conrette_is_not_enough">חתך הבטון לא מספיק</string>
+    <string name="minimal_armament_required">נדרש זיון מינמלי</string>
+    <string name="calculated_cut_out">זיון גיזרה מחושב</string>
+    <string name="spacing_between_rods_not_proper">מרווח בין מוטות לא תקיני</string>
+    <string name="proper_spacing">מרווח תקין</string>
+    <string name="amount_of_branches_not_proper">כמות ענפים לא תקינה</string>
+    <string name="armament_cut_dose_is_valid">מנת זיון לגזירה תקינה</string>
+    <string name="armament_cut_dose_is_not_valid">מנת זיון גזירה לא תקינה</string>
+    <string name="valid_femail">תקינה</string>
+    <string name="pressure_required">נדרש זיון לחוץ</string>
+    <string name="pressure_not_required">לא נדרש זיון לחוץ</string>
+    <string name="not_valid_femail">לא תקינה</string>
+
+    <string-array name="load_types">
+        <item>ללא מומנט מקסימלי או לא קיים עומס מרוכז</item>
+        <item>מומנט מקסימלי או קיים עומס מרוכז</item>
+    </string-array>
+
+    <string-array name="bending_tolerance_sub_categories">
+        <item>חתך מלבני כפיפה וגזירה</item>
+        <item>חתך קמץ כפיפה וגזירה</item>
+        <item>חתך מלבני תקרה</item>
+    </string-array>
+
+    <string-array name="steel_ceiling_sub_categories">
+        <item>IPN</item>
+        <item>HEB</item>
+        <item>HEA</item>
+    </string-array>
+
+    <string-array name="canopy_lengths_sub_categories">
+        <item>חישוב אורך חפייה בזיון למוט בוד</item>
+        <item>חפייה בזיון לרשת חד שכבתית</item>
+        <item>חפייה בזיון לרשת רב שכבתית</item>
+        <item>חפייה מוטות משניים ברשת</item>
+    </string-array>
+
+    <string-array name="paging_sub_categories">
+        <item>עמוד במסגרת</item>
+        <item>עמוד פשוט HOLD</item>
+    </string-array>
+
+    <string-array name="penetration_sub_categories">
+        <item>חדירה עמוד פנימי קמץ חישוק</item>
+        <item>חדירה עמוד פנימי מלבני חישוקים</item>
+        <item>חדירה עמוד פנימי עגול חישוקים</item>
+        <item>חדירה עמוד מלבני פינתי חישוק</item>
+        <item>חדירה עגול פינתי חישוק</item>
+        <item>חדירה קיר פינתי חישוק</item>
+        <item>חדירה קיר המשכי חישוק</item>
+    </string-array>
+
+    <string-array name="steel_types">
+        <item>מצולעת</item>
+        <item>חלקה</item>
+    </string-array>
+
+    <string-array name="frame_types">
+        <item>מסגרת מוחזקת</item>
+        <item>מסגרת לא  מוחזקת</item>
+    </string-array>
+
+    <string-array name="suspendedSuspensionConditionTypes">
+        <item>פרקי</item>
+        <item>רתום</item>
+        <item>מסגרת</item>
+    </string-array>
+
+    <string-array name="connection_types">
+        <item>ריתום מלא</item>
+        <item>חיבור פרקי מלא</item>
+        <item>קצה חופשי</item>
+    </string-array>
+
+    <string-array name="conditions_of_adhesion_types">
+        <item>טובים</item>
+        <item>נחותים</item>
+    </string-array>
+
+    <string-array name="rod_state_types">
+        <item>במתיחה</item>
+        <item>בלחיצה</item>
+    </string-array>
+
+    <string name="broker_document">צוות Bitengos ממשיך לעדכן ולשפר את האפלקציה, מטרתנו להקל על מהנדסים
+        והנדסאים בתחום הבניה והתכנון בחישובי התכן, הבטון והפלדה. ליצירת קשר בכל שאלה ניתן לפנות
+        במייל bitengos.team@gmail.com
+    </string>
+    <string name="design">תכן</string>
+    <string name="concrete">בטון</string>
+    <string name="steel">פלדה</string>
+    <string name="statics">סטטיקה</string>
+    <string name="home">בית</string>
+    <string name="search_in">חפש ב:</string>
+    <string name="building_engineering_design">תכן הנדסה בניין</string>
+
+    <string name="open_drawer">פתח מגירה</string>
+    <string name="close_drawer">סגור מגירה</string>
+    <string name="armament_dose_is_enough">כמות זיון מספיקה</string>
+    <string name="armament_dose_is_not_enough">כמות זיון אינה מספיקה</string>
+    <string name="pitch_is_proper">פסיעה תקינה</string>
+    <string name="pitch_is_not_proper">פסיעת זיון לא תקינה</string>
+    <string name="proper_ceiling_height">גובה תקרה תקין</string>
+    <string name="not_proper_ceiling_height">גובה תקרה לא תקין</string>
+    <string name="armament_penetration_required">נדרש זיון חדירה</string>
+    <string name="armament_penetration_not_required">אין צורך בזיון לחדירה</string>
+    <string name="cut_is_proper_possible_to_plan_penetration">חתך תקין אפשר לתכנן לחדירה</string>
+    <string name="concrete_cut_is_not_enough">חתך הבטון לא מספיק</string>
+    <string name="radial_distance_is_proper">מרחק רדיאלי תקין</string>
+    <string name="radial_distance_is_not_proper">מרחק רדיאלי לא תקין</string>
+    <string name="tangential_distance_is_proper">מרחק משיקי תקין</string>
+    <string name="tangential_distance_is_not_proper">מרחק משיקי לא תקין</string>
+    <string name="armament_amount_for_penetration_is_enough">כמות זיון לחדירה מספיקה</string>
+    <string name="armament_amount_for_penetration_is_not_enough">כמות זיון אינה מספיקה</string>
+    <string name="amount_of_branches_is_proper">כמות ענפים תקינה</string>
+    <string name="amount_of_branches_is_not_proper">כמות ענפים לא תקינה</string>
+    <string name="email">דוא\"ל</string>
+    <string name="email_dotted">דוא\"ל:</string>
+    <string name="password">סיסמה</string>
+    <string name="confirm_password">אמת סיסמה</string>
+    <string name="restore_password_message">לא זוכר סיסמה? לחץ על \"שלח סיסמה\" והסיסמה תשלח על דוא\"ל הצוין עם הוא רשום במערכת שלנו.</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="name">שם</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="profile">"משתמש"</string>
+    <string name="network_error">אין חיבור אינטרנט</string>
+    <string name="request_not_sent_try_again">הבקשה לא נשלחה. חיבור אינטרנט לא יציב. אנא נסה לחזור על פעולה שנית</string>
+    <string name="save">שמור</string>
+    <string name="show_pitul">הצג פיתול</string>
+    <string name="hide_pitul">הסתר פיתול</string>
+    <string name="endurance_of_cut_valid">תסבולת החתך לגזירה תקין</string>
+    <string name="endurance_of_cut_not_valid">תסבולת החתך לגזירה לא תקינה</string>
+    <string name="cannot_be_empty">לא יכול להיות ריק</string>
+    <string name="passwords_not_match">סיסמאות לא תואמות</string>
+    <string name="verifying_data">אנא המתן בבקשה, בודק מידע</string>
+    <string name="accept">מאשר</string>
+    <string name="not_accepting">לא מאשר</string>
+    <string name="cancel">ביטול</string>
+    <string name="understand">הבנתי</string>
+
+    <string name="hello_msg" translatable="false">שלום %s</string>
+    <string name="digits_allowed">_=-+אבגדהוזחטיכלמנסעפצקרשתףץךןםabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890</string>
+    <string name="new_math_version">חישוב חדש</string>
+    <string name="wrong_password">סיסמה לא נכונה</string>
+    <string name="this_name_exists">שם זה קיים, בחר שם אחר</string>
+    <string name="email_sent">דוא\"ל נשלח</string>
+    <string name="email_subject">נשלח מאת: צוות Bitengos</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="newV">חדש</string>
+    <string name="current">נוכחי</string>
+    <string name="login">התחבר</string>
+    <string name="register">הרשמה</string>
+    <string name="forgot_password">שכחתי סיסמה</string>
+    <string name="next">המשך</string>
+    <string name="email_wrong">דוא\"ל לא תקין</string>
+    <string name="wait_please_checking_data">המתן בבקשה בודק מידע…</string>
+    <string name="cant_be_empty">לא יכול להיות ריק</string>
+    <string name="minimum_6_characters">מינימום 6 תווים</string>
+    <string name="unexpected_error">שגיאה לא צפויה</string>
+    <string name="email_not_registered">דוא\"ל לא רשום</string>
+    <string name="authenticated_with_google_msg">הינך נרשמת באמצעות גוגל</string>
+    <string name="successfully_connected">התחברות בוצע בהצלחה</string>
+    <string name="email_already_registered">דוא\"ל זה כבר רשום</string>
+    <string name="password_isnt_required_for_google_auth">אין צורך בסיסמה למי שנרשם עם גוגל</string>
+    <string name="authenticated_with_email_password_msg">נרשמת באמצעות דוא\"ל וסיסמה</string>
+    <string name="sign_in_isnt_complete_try_again">התחברות לא בוצע, אנא נסה שוב מאוחר יותר</string>
+    <string name="successfully_sign_up">הרשמה הצליחה</string>
+    <string name="password_is_not_changed">סיסמה לא הוחלפה</string>
+    <string name="about">אודות</string>
+    <string name="contact">צור קשר</string>
+    <string name="about_title">אודות צוות Bitengos</string>
+    <string name="about_msg">
+        ה Bitengos הינו צוות שמורכב ממהנדסים מתחומים שונים ואנשי תוכנה, הפועל בתחום היזמות והפיכת הרעיון למציאות.
+        ל Bitengos ישנם מספר חטיבות, כאשר כל חטיבה עוסקת בפיתוח אחזקה ושירות בתחום בו היא מתמחה כגון:
+        חטיבת הנדסה אזרחית הכולל: יעוץ, תכנון, פיקוח וניהול פרויקטים.
+        הנדסה פיתוח מערכות: פיתוח מערכות תוכנה בהתאם לדרישות לקוח על פלטפורמות שונות.
+        הנדסת חשמל: ביצוע וניהול פרויקטים ועוד…\n
+        צוות Bitengos קשוב ופתוח לכל הצעה או בקשה.\n\n
+        ניתן לפנות עלינו דרך אזור \"צור קשר\"\n או דרך דוא\"ל - bitengos.team@gmail.com</string>
+    <string name="subject">נושא</string>
+    <string name="description">תיאור</string>
+    <string name="send">שלח</string>
+    <string name="email_service_request_sent_msg">פניתך נקלטה והיא תטופל בהקדם האפשרי.\n צוות Bitengos עומד לשרותך.</string>
+    <string name="request_received">פניה נקלטה</string>
+    <string name="wait_please_sending_request">המתן בבקשה שולח פניה…</string>
+    <string name="logout">התנתק</string>
+    <string name="logout_msg">האם הינך מעוניין להתנתק?</string>
+</resources>

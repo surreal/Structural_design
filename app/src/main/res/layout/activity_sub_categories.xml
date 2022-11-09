@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@id/drawer_layout"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.itcm.structural_design.activities.SubCategoriesManagerActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/basic_top_views_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/layout_toolbar" android:id="@id/toolbar_custom"/>
+            <LinearLayout
+                android:id="@+id/activity_sub_categories_two_btns_layout_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTurquoise"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+                <include layout="@layout/layout_two_buttons_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/activity_sub_categories_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/activity_sub_categories_tl"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                android:layoutDirection="ltr"
+                app:tabTextAppearance="@style/TabLayoutTextStyle"/>
+        </androidx.viewpager.widget.ViewPager>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_drawer"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

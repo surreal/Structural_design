@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@id/drawer_layout"
+    tools:context=".activities.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar" android:id="@id/toolbar_custom"/>
+
+        <LinearLayout
+            android:id="@+id/activity_profile_reset_password_btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:background="@color/colorTurquoise"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activity_profile_reset_password_btn_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="החלף סיסמה"
+                android:textColor="@color/colorBlueBright"
+                style="@style/ButtonYellowOvalStyle"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:paddingBottom="400dp">
+
+                <RelativeLayout
+                    android:id="@+id/activity_profile_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/activity_profile_image_rl"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:padding="10dp"
+                        android:background="@drawable/selector_pressed_white_oval_green_contour_thin">
+
+                        <ImageView
+                            android:id="@+id/activity_profile_image_iv"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:src="@mipmap/profile_unsigned" />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/profile_name_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_above="@id/profile_email_ll"
+                        android:layout_marginEnd="10dp"
+                        android:layout_toEndOf="@id/activity_profile_image_rl">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/activity_profile_name_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="דניאל"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="17sp"
+                                android:maxLines="1"
+                                android:layout_toStartOf="@id/name_tv"
+                                android:textColor="@android:color/black" />
+
+                            <TextView
+                                android:id="@+id/name_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="שם:"
+                                android:layout_alignParentEnd="true"
+                                android:textSize="17sp"
+                                android:maxLines="1"
+                                android:layout_marginStart="5dp"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/profile_email_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="10dp"
+                        android:layout_alignBottom="@id/activity_profile_image_rl"
+                        android:layout_toEndOf="@id/activity_profile_image_rl">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/activity_profile_email_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="myMail@gmail.com"
+                                android:layout_marginBottom="5dp"
+                                android:layout_toStartOf="@id/email_tv"
+                                android:textSize="17sp"
+                                android:maxLines="1"
+                                android:textColor="@android:color/black" />
+
+                            <TextView
+                                android:id="@+id/email_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/email_dotted"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginBottom="5dp"
+                                android:textSize="17sp"
+                                android:maxLines="1"
+                                android:layout_marginStart="5dp"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorTurquoise"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_drawer"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

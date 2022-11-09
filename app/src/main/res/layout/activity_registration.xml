@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".activities.RegistrationActivity">
+    <include layout="@layout/layout_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/build"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_oval_white_transparent_turquoise">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/logo"
+                    android:layout_gravity="center_horizontal"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/activity_registration_name_text_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="10dp">
+                    <EditText
+                        android:id="@+id/activity_registration_name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/name"
+                        android:textSize="25sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/activity_registration_email_text_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+                    <EditText
+                        android:id="@+id/activity_registration_email_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/email"
+                        android:textSize="25sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/activity_registration_password_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_registration_email_text_til">
+                    <EditText
+                        android:digits="@string/digits_allowed"
+                        android:id="@+id/activity_registration_password_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:hint="@string/password"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="25sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/activity_authentication_confirm_password_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/activity_registration_email_text_til">
+                    <EditText
+                        android:id="@+id/activity_authentication_confirm_password_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:hint="@string/confirm_password"
+                        android:layout_marginBottom="20dp"
+                        android:textSize="25sp"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/activity_registration_verify_and_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/ButtonYellowOvalStyle"
+                    android:textSize="20sp"
+                    android:text="אמת והמשך"/>
+
+                <TextView
+                    android:id="@+id/activity_registration_login_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="20dp"
+                    android:minWidth="300dp"
+                    android:textSize="20sp"
+                    android:text="משתמש רשום? לחץ כאן"/>
+
+                <!--
+                            <LinearLayout
+                                android:id="@+id/activity_registration_google_sign_in_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/selector_pressed_yellow_oval_grey_conture"
+                                android:padding="10dp"
+                                android:orientation="horizontal"
+                                android:gravity="start">
+                                <TextView
+                                    android:id="@+id/google_btn_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:textColor="@color/colorBlueBright"
+                                    android:textAlignment="viewStart"
+                                    android:textStyle="bold"
+                                    android:textSize="15sp"
+                                    android:paddingStart="5dp"
+                                    android:paddingEnd="15dp"
+                                    android:text="הרשמה עם גוגל"/>
+                                <ImageView
+                                    android:id="@+id/google_img"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:src="@mipmap/google_icon"/>
+                            </LinearLayout>
+                -->
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

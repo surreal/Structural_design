@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/drawer_layout_profile_rl"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/selector_basic">
+
+            <ImageView
+                android:id="@+id/drawer_layout_profile_image_iv"
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="15dp"
+                android:src="@mipmap/profile_unsigned" />
+
+            <TextView
+                android:id="@+id/drawer_layout_profile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/drawer_layout_profile_image_iv"
+                android:text="myMail@gmail.com"
+                android:layout_marginBottom="5dp"
+                android:layout_alignBottom="@id/drawer_layout_profile_image_iv"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/drawer_layout_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:maxLines="1"
+                android:layout_toEndOf="@id/drawer_layout_profile_image_iv"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_above="@id/drawer_layout_profile_email"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_break_line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_home_btn_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/logo"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/home"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_design_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/design"
+                    android:layout_gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/design"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_concrete_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/concrete"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/concrete"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_steel_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/steel"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/steel"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_statics_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/statics"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/statics"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_contact_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/contact"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/contact"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+            <LinearLayout
+                android:id="@+id/drawer_layout_about_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/selector_basic">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/information"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/about"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <include layout="@layout/layout_break_line"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

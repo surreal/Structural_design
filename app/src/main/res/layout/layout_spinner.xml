@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_spinner_main_rl">
+
+    <RelativeLayout
+        android:id="@+id/layout_spinner_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/layout_spinner_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_pressed_white_square_green_contour"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlueBright"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/layout_spinner_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:popupBackground="@android:color/transparent"
+            android:layout_below="@id/layout_spinner_title_tv"
+            android:dropDownWidth="fill_parent"
+            android:background="@null"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+</RelativeLayout>
