@@ -23,7 +23,7 @@ Firebase Crashlytics
 (גם בזמן אמת).
 
 
-
+<br><br>
 <div>
 <img src="https://user-images.githubusercontent.com/16803977/200957841-23709082-fa8a-4354-9006-f09d163c2bfd.png" width="100" title="screenshot 1">
 <img src="https://user-images.githubusercontent.com/16803977/200957842-88d1af0c-cb1a-48ac-a287-25b8f05e3f4c.png" width="100" title="screenshot 2">
