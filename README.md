@@ -33,9 +33,4 @@ Firebase Crashlytics
 <img src="https://user-images.githubusercontent.com/16803977/200957872-2579489d-1eae-440c-843f-a67d816a227c.png" width="100" title="screenshot 19">
 <img src="https://user-images.githubusercontent.com/16803977/200957873-d8ae59c4-45fc-46e7-9066-ac8684d1afda.png" width="100" title="screenshot 20">
 <img src="https://user-images.githubusercontent.com/16803977/200957876-2ed6be65-d891-4f16-9bc2-ad08afb17bad.png" width="100" title="screenshot 21">
-<img src="https://user-images.githubusercontent.com/16803977/200957881-130867cc-7cf9-42f9-8c94-93979dbbaacd.png" width="100" title="screenshot 22">
-<img src="https://user-images.githubusercontent.com/16803977/200957884-49264609-cce3-4f15-a9bd-8bea1d8087df.png" width="100" title="screenshot 23">
-<img src="https://user-images.githubusercontent.com/16803977/200957886-b24a1d7e-a669-4368-bddf-91df638d216e.png" width="100" title="screenshot 24">
-<img src="https://user-images.githubusercontent.com/16803977/200957887-34500dae-8250-4a97-98c3-3f4bef8e2ab6.png" width="100" title="screenshot 25">
-<img src="https://user-images.githubusercontent.com/16803977/200957889-b123ed38-e748-4891-b16f-279fcc8a817c.png" width="100" title="screenshot 26">
 </div>
