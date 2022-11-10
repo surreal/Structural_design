@@ -10,6 +10,7 @@ import com.itcm.structural_design.activities.AuthenticationActivity;
 import com.itcm.structural_design.activities.BasicActivity;
 import com.itcm.structural_design.activities.ContactActivity;
 import com.itcm.structural_design.helpers.Internet;
+import com.itcm.structural_design.helpers.ProgressD;
 import com.itcm.structural_design.interfaces.OnAsyncPostListener;
 import com.itcm.structural_design.interfaces.OnAsyncPostUserDetailsListener;
 
@@ -140,9 +141,11 @@ public class SendEmailAsyncTask extends AsyncTask<String, String, String> {
                 break;
             case BasicActivity.PORT_CLOSED_ERROR:
                 Toast.makeText(context, "יש חסימה ברשת שלך, דוא\"ל לא נשלח! התחבר לרשת אחרת.", Toast.LENGTH_LONG).show();
+                ProgressD.dismissDialog();
                 break;
             case EMAIL_SENT_ERROR:
                 Toast.makeText(context, "דוא\"ל לא נשלח - אין חיבור אינטרנט", Toast.LENGTH_LONG).show();
+                ProgressD.dismissDialog();
                 break;
         }
     }
