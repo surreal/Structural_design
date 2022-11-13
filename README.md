@@ -23,7 +23,7 @@
 <p>
 1. שפה: <strong>Android</strong><br>
 2. SQL: האפליקציה מסונכרנת עם <strong>בסיס נתונים</strong><br>
-3. Email: נשלח <strong>לדוא"ל</strong> החברה למשתמשי האפליקציה בעת פעולות מסוימות<br>
+3. Email: נשלח <strong>דוא"ל</strong> החברה למשתמשי האפליקציה בעת פעולות מסוימות<br>
 4. Firebase Storage: שימש <strong>בשרת קבצים</strong> כדי לשמור תמונת משתמש<br>
 5. Firebase Authentication: שימוש <strong>בשירות ההזדהות</strong><br>
 6. Firebase Analitic: <strong> מעכב אחרי פעולות</strong> של משתמשים באפליקציה (גם בזמן)<br>
