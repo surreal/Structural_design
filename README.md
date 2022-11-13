@@ -29,6 +29,7 @@
 6. Firebase Analitic: <strong> מעכב אחרי פעולות</strong> של משתמשים באפליקציה (גם בזמן)<br>
 7. Firebase Crashlytics: <strong>איתור תקלות ושגיאות</strong> המתרחשות אצל משתמשים (גם בזמן אמת)<br>
 </p>
+<h2></h2>
 <br><br>
 <div>
 <img src="https://user-images.githubusercontent.com/16803977/200957873-d8ae59c4-45fc-46e7-9066-ac8684d1afda.png" width="100" title="screenshot 20">
