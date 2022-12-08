@@ -26,7 +26,7 @@
 3. Email: נשלח <strong>דוא"ל</strong> החברה למשתמשי האפליקציה בעת פעולות מסוימות<br>
 4. Firebase Storage: שימש <strong>בשרת קבצים</strong> כדי לשמור תמונת משתמש<br>
 5. Firebase Authentication: שימוש <strong>בשירות ההזדהות</strong><br>
-6. Firebase Analitic: <strong> מעכב אחרי פעולות</strong> של משתמשים באפליקציה (גם בזמן)<br>
+6. Firebase Analitic: <strong> מעכב אחרי פעולות</strong> של משתמשים באפליקציה (גם בזמן אמת)<br>
 7. Firebase Crashlytics: <strong>איתור תקלות ושגיאות</strong> המתרחשות אצל משתמשים (גם בזמן אמת)<br>
 </p>
 <h2></h2>
